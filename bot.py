@@ -209,6 +209,9 @@ def handle_other(message):
 # ==========================================
 # ЗАПУСК БОТА
 # ==========================================
+# Удаляем webhook если он был
+bot.remove_webhook()
+time.sleep(1)
 print("=" * 50)
 print("  OLX EMAIL CHECKER BOT — запускаюсь!")
 print("=" * 50)
