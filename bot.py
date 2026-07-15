@@ -7,7 +7,7 @@ import time
 import telebot
 from telebot import types
 
-TOKEN = "8663065329:AAGsTfadlYYtBviD5-RXHHJf4YUBEzoqymw"
+TOKEN = "8545685626:AAGmTF2wupXMxQ773lz0a4vjNUa4-KkXazQ"
 bot = telebot.TeleBot(TOKEN)
 
 DOMAINS = ["@wp.pl", "@vp.pl"]
